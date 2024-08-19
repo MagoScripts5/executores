@@ -58,26 +58,25 @@
 
     <button id="styledButton"><a href="https://gofile.io/d/0L6n1U"><i class="fa-brands fa-android"></i> Fluxus Mobile</a></button>
 
-    <div id="loading-screen">
-        <div class="logo">Loading...</div>
-    </div>
+ 
 
 
     <script>
-        
-        setTimeout(function() {
-            
-            const loadingScreen = document.getElementById('loading-screen');
-            const content = document.getElementById('content');
-            
-            
-            loadingScreen.style.opacity = '0';
-
-            
+ document.addEventListener('DOMContentLoaded', function() {
+           
             setTimeout(function() {
-                loadingScreen.style.display = 'none';
-                content.style.display = 'block';
-            }, 500); 
-        }, 3000);
+                const loadingScreen = document.getElementById('loading-screen');
+                const content = document.getElementById('content');
+
+                
+                loadingScreen.classList.add('fade-out');
+
+               
+                setTimeout(function() {
+                    loadingScreen.style.display = 'none';
+                    content.style.display = 'block';
+                }, 500); 
+            }, 3000); 
+        });
     </script>
 </html>

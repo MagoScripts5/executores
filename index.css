@@ -204,6 +204,7 @@ background: linear-gradient(90deg, rgba(145,88,224,1) 0%, rgba(61,0,101,1) 35%, 
         position: absolute;
         left: 15%;
     }
+}
 
     #styledButton {
         background: rgb(106,0,255);
@@ -481,6 +482,7 @@ background: linear-gradient(90deg, rgba(145,88,224,1) 0%, rgba(61,0,101,1) 35%, 
         position: absolute;
         left: 15%;
     }
+}
 
     #styledButton {
         background: rgb(106,0,255);

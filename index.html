@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,48 @@
 
     <div class="icon">
         <img class="icon" src="image/2558-fluxus.png" alt=""> <h1 class="name">FLUXUS</h1>
+    </div>
+
+    <button id="styledButton"><a href="https://gofile.io/d/0L6n1U"><i class="fa-brands fa-android"></i> Fluxus Mobile</a></button>
+
+    <div id="loading-screen">
+        <div class="logo">Loading...</div>
+    </div>
+
+
+    <script>
+        
+        setTimeout(function() {
+            
+            const loadingScreen = document.getElementById('loading-screen');
+            const content = document.getElementById('content');
+            
+            
+            loadingScreen.style.opacity = '0';
+
+            
+            setTimeout(function() {
+                loadingScreen.style.display = 'none';
+                content.style.display = 'block';
+            }, 500); 
+        }, 3000);
+    </script>
+
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxus | Mago Scripts</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+</head>
+<body>
+    <img src="images/images (2).png">
+
+    <div class="icon">
+        <img class="icon" src="images/2558-fluxus.png" alt=""> <h1 class="name">FLUXUS</h1>
     </div>
 
     <button id="styledButton"><a href="https://gofile.io/d/0L6n1U"><i class="fa-brands fa-android"></i> Fluxus Mobile</a></button>
